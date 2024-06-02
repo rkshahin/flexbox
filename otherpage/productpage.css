@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1240px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.product {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap:wrap ;
+    
+
+}
+
+
+.product>h1{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: darkgreen;
+    padding: .1%;
+    margin: 1%;
+    border-radius: 10px;
+}
+.product-Card {
+    margin: 4px;
+    flex: 1;
+    flex-basis: 14%;
+    padding: 2%;
+    background-color: rgb(244, 243, 243);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-Card:hover{
+    box-shadow: #00000a80 0px 3px 16px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+
+.P-img img {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 2px;
+}
+
+.P-info {
+    text-align: center;
+}
+.btn {
+    background-color: darkgreen;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    font-size: 10px;
+}
+
+.btn{
+   color: #fff;
+    transition: background-color .1s;
+    cursor: pointer;
+  }
+  
+.btn:hover {
+    background-color: #f80606;
+  }
+.btn:focus,
+  fade:active {
+    background-color: rgb(229, 8, 8), 0, 0);
+    transition: none;
+  }
+
+
+.PhotoGallary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
